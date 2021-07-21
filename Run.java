@@ -1,25 +1,28 @@
 package ak.apps.trackedhabits;
+import java.text.Format;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
-public class Run implements java.io.Serializable
+
+public class Run
 {
-    private SimpleDateFormat("HH.mm.ss") runTime;
-    private SimpleDateFormat("mm/dd/yyyy") runDate;
+    private String runTime;
+    private String runDate;
     public Run() {}
 
-    public SimpleDateFormat getRunTime() {
+    public String getRunTime() {
         return runTime;
     }
 
-    public void setRunTime(SimpleDateFormat inputRunTime) {
+    public void setRunTime(String inputRunTime) {
         this.runTime = inputRunTime;
     }
 
-    public SimpleDateFormat getRunDate() {
+    public String getRunDate() {
         return runDate;
     }
 
-    public void setRunDate(SimpleDateFormat inputRunDate) {
+    public void setRunDate(String inputRunDate) {
         this.runDate = inputRunDate;
     }
 
@@ -31,5 +34,4 @@ public class Run implements java.io.Serializable
         System.out.println(r.getRunTime();
     }
 
-    }
-
+}

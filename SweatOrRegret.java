@@ -1,7 +1,7 @@
 package ak.apps.trackedhabits;
 import java.text.SimpleDateFormat;
 
-public class SweatOrRegret implements java.io.Serializable
+public class SweatOrRegret
 {
     private SimpleDateFormat("HH.mm.ss") sweatTime;
     private SimpleDateFormat("dd/MMMM/yyyy") sweatDate;

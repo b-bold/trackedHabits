@@ -1,6 +1,6 @@
 package ak.apps.trackedhabits;
 
-public class MorningRoutine implements java.io.Serializable
+public class MorningRoutine
 {
     private boolean isMorningRoutineDone;
     public MorningRoutine() {}
