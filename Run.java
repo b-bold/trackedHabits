@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 public class Run implements java.io.Serializable
 {
     private SimpleDateFormat("HH.mm.ss") runTime;
-    private SimpleDateFormat("dd/MMMM/yyyy") runDate;
+    private SimpleDateFormat("mm/dd/yyyy") runDate;
     public Run() {}
 
     public SimpleDateFormat getRunTime() {
@@ -22,5 +22,14 @@ public class Run implements java.io.Serializable
     public void setRunDate(SimpleDateFormat inputRunDate) {
         this.runDate = inputRunDate;
     }
-}
+
+    public static void main(String args[]) {
+        Run r = new Run();
+        r.setRunDate("03/04/1987");
+        r.setRunTime("00.09.30");
+        System.out.println(r.getRunDate());
+        System.out.println(r.getRunTime();
+    }
+
+    }
 
