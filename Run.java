@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-public class Run
+public class Run extends Habits
 {
     private String runTime;
     private String runDate;
